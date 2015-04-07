@@ -1,0 +1,59 @@
+{
+  "environment": {
+    "java_home": "/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/",
+    "archieve_type": "jar"
+  },
+  "jobs": [
+      {
+        "job_name" : "ecfa-mw",
+        "archieve_name": "ecfa-mw",
+        "archieve_version": "1.1.9",
+        "filesets": {
+          "java": [
+          ],
+          "class": [
+            {
+              "base_directory": "com/chttl/ecfa/vo/version"
+            },
+            {
+              "base_directory": "com/chttl/ecfa/vo/user"
+            },
+            {
+              "base_directory": "com/chttl/ecfa/vo/transfer"
+            },
+            {
+              "base_directory": "com/chttl/ecfa/vo/project"
+            },
+            {
+              "base_directory": "com/chttl/ecfa/vo/problem"
+            },
+            {
+              "base_directory": "com/chttl/ecfa/utility/constants"
+            },
+            {
+              "base_directory": "com/chttl/ecfa/model"
+            },
+            {
+              "base_directory": "com/chttl/common/model/rest"
+            },
+            {
+              "base_directory": "com/chttl/ecfa/exception"
+            },
+            {
+              "base_directory": "com/chttl/ecfa/utility/PropertiesUtil.class"
+            }
+          ],
+          "jar": [
+            {
+              "jar_name": "come-3.0.8",
+              "filesets" : [
+                {
+                  "base_directory": "com/chttl/come/utility/constant/"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+}
